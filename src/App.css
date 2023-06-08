@@ -1,0 +1,91 @@
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1005/627/785/watching-you-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+       }
+    
+    img {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: auto;
+       margin: 10px;
+       border: 10px solid #c7a42b;
+       background-color: aliceblue;
+       border-radius: 30%;
+       cursor: grab;
+       object-fit: cover;
+       width: 210px;
+       height: 210px;
+       }
+    
+       #catContainer {
+       display: flex;
+       background-color: #c7a42b; 
+       height: 500px;
+       width: 250px;
+       overflow: hidden;
+       margin: 0;
+       padding: 0;
+       border-radius: 8%;
+       }
+       
+       
+       .catItem{
+       height: 100%;
+       width: 100%;
+       background-color: black;
+       transition: all 0.3s;
+       border-radius: 8%;
+       text-align: center;
+       color: #c7a42b;
+       }
+       
+       
+       #ModalBanner {
+       display: flex;
+       align-items: flex-end;
+       flex-direction: column;
+       height: 100%;
+       color: #c7a42b;
+       }
+       
+       #buttonarrow {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       object-fit: cover;
+       
+       }
+    
+       #buttonarrow button {
+          color: #c7a42b;
+          font-size: 25px;
+          width: 110px;
+          border-radius: 100px;
+          border-color: #c7a42b;
+          background-color: black;
+       }
+       
+       
+       
+       /* #cats4lifeheader{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       object-fit: cover;
+       font-size: 400%;
+       } */
+       
+       
+       #catsection{
+       display: flex;
+       justify-content: center;
+       }
+       
+       
+       #Cats4lifelogo{
+          display: flex;
+          justify-content: center;
+          font-size: 50px;
+       }
